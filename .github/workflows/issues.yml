@@ -9,3 +9,4 @@ jobs:
       - run: echo "name=${{ github.event_name }}"
       - run: echo "action=${{ github.event.action }}"
       - run: echo "issue_number=${{ github.event.issue.number }}"
+      - run: echo "comment_body=${{ github.event.comment.body }}"
